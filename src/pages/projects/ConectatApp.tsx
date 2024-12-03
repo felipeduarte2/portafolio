@@ -5,21 +5,25 @@ import Carousel from "../../components/Carrusel";
 const ConectatApp: React.FC = () => {
     const items = [
         {
-        src: "../src/assets/conectat/imagen_conectat_inicio_sesion.jpg",
+        src: "/portafolio/src/assets/conectat/imagen_conectat_inicio_sesion.jpg",
         caption: "Pantalla de inicio de sesión: autenticación de usuarios.",
         },
         {
-        src: "../src/assets/conectat/imagen_conectat_identificacion_cliente.jpg",
+        src: "/portafolio/src/assets/conectat/imagen_conectat_identificacion_cliente.jpg",
         caption: "Identificación del cliente: captura de datos personales.",
         },
         {
-        src: "../src/assets/conectat/imagen_conectat_validacion_cliente.jpg",
+        src: "/portafolio/src/assets/conectat/imagen_conectat_validacion_cliente.jpg",
         caption: "Validación del cliente: verificación de datos y autenticación.",
         },
-        // {
-        // src: "/images/soporte-conectat.png",
-        // caption: "Soporte técnico: solicitud de ayuda desde la app.",
-        // },
+        {
+        src: "/portafolio/src/assets/conectat/imagen_conetat1.jpg",
+        caption: "Pantalla principal: gestión de planes de internet.",
+        },
+        {
+        src: "/portafolio/src/assets/conectat/imagen_conetat2.jpg",
+        caption: "Pantalla principal: gestión de planes de internet.",
+        },
     ];
 
     return (

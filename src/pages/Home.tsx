@@ -11,7 +11,7 @@ const Home: React.FC = () => {
         >
         {/* Foto con animación */}
         <motion.img
-            src="/src/assets/foto_cv.jpg" // Cambia esto por la ruta de tu foto
+            src="/portafolio/src/assets/foto_cv.JPG" // Cambia esto por la ruta de tu foto
             alt="Felipe de Jesús Duarte Castillo"
             className="w-32 h-32 rounded-full shadow-lg mb-6"
             initial={{ scale: 0, rotate: -180 }}

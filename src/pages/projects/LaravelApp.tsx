@@ -7,35 +7,35 @@ const LaravelApp: React.FC = () => {
 
     const items = [
         {
-            src: "../src/assets/laravel/imagen_login.png",
+            src: "/portafolio/src/assets/laravel/imagen_login.png",
             caption: "Pantalla de inicio de sesión: autenticación de usuarios.",
         },
         {
-            src: "../src/assets/laravel/imagen_admin_users.png",
+            src: "/portafolio/src/assets/laravel/imagen_admin_users.png",
             caption: "Panel del Administrador: Administración de usuarios.",
         },
         {
-            src: "../src/assets/laravel/imagen_admin_new_user.png",
+            src: "/portafolio/src/assets/laravel/imagen_admin_new_user.png",
             caption: "Panel del Administrador: Creación de nuevos usuarios.",
         },
         {
-            src: "../src/assets/laravel/imagen_coordi_list.png",
+            src: "/portafolio/src/assets/laravel/imagen_coordi_list.png",
             caption: "Panel del Coordinador: Listado de pases de salida.",
         },
         {
-            src: "../src/assets/laravel/imagen_cordi.png",
+            src: "/portafolio/src/assets/laravel/imagen_cordi.png",
             caption: "Panel del Coordinador: Administración de permisos.",
         },
         {
-            src: "../src/assets/laravel/imagen_docente_dashboard.png",
+            src: "/portafolio/src/assets/laravel/imagen_docente_dashboard.png",
             caption: "Panel del Docente: Panel principal.",
         },
         {
-            src: "../src/assets/laravel/imagen_docente_solicitud_d.png",
+            src: "/portafolio/src/assets/laravel/imagen_docente_solicitud_d.png",
             caption: "Panel del Docente: Solicitud de documentos.",
         },
         {
-            src: "../src/assets/laravel/imagen_docente_solicitud_p.png",
+            src: "/portafolio/src/assets/laravel/imagen_docente_solicitud_p.png",
             caption: "Panel del Docente: Solicitud de pases de salida.",
         },
     ];
