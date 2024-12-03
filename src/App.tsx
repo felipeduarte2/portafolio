@@ -20,6 +20,7 @@ function App(): JSX.Element {
       <main className="pt-16"> {/* Agrega padding-top para evitar que el Header tape el contenido */}
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/portafolio" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/:id" element={<ProjectDetail />} />
