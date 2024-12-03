@@ -98,7 +98,7 @@ const Portfolio: React.FC = () => {
             className="text-center my-8"
             >
             <a
-                href="https://github.com/felipeduarte2/Proyecto_Django"
+                href="https://github.com/felipeduarte2/portafolio"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block  text-blue-600 hover:text-blue-800"
