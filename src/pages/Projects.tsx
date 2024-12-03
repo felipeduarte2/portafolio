@@ -11,7 +11,7 @@ const Projects: React.FC = () => {
             title: "Aplicación web para solicitudes de permisos",
             description:
                 "Una app desarrollada en Laravel para que docentes soliciten permisos.",
-            image: "./portafolio/src/assets/laravel/imagen_login.png",
+            image: "https://felipeduarte.neocities.org/imagenes/laravel/imagen_login.png",
             link: "/projects/laravel-app", // Nueva ruta
             technologies: [<FaLaravel />,<SiTailwindcss />, <SiMysql/>, <FaCloud />],
         },
@@ -20,7 +20,7 @@ const Projects: React.FC = () => {
             title: "Conect@t - App de gestión de planes de internet",
             description:
                 "Aplicación móvil creada para que usuarios gestionen sus planes de internet.",
-            image: "./portafolio/src/assets/conectat/Imagen_conectat_inicio_sesion.jpg",
+            image: "https://felipeduarte.neocities.org/imagenes/conectat/Imagen_conectat_inicio_sesion.jpg",
             link: "/projects/conectat-app", // Nueva ruta
             technologies: [
                 <DiJava/>, <SiKotlin/>,<SiJetpackcompose/>,<FaDatabase />, <FaCloud />],
@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
             title: "Portafolio personal",
             description:
                 "Un portafolio web interactivo creado con React, TypeScript y TailwindCSS para destacar mis proyectos y habilidades.",
-            image: "./portafolio/src/assets/imagen_portafolio.png",
+            image: "https://felipeduarte.neocities.org/imagenes/imagen_portafolio.png",
             link: "/projects/portafolio", // Nueva ruta
             technologies: [<FaReact />, <SiTypescript />, <SiTailwindcss />],
         },
@@ -39,7 +39,7 @@ const Projects: React.FC = () => {
             title: "Django AI Project",
             description:
                 "Un proyecto de inteligencia artificial desarrollado en Django.",
-            image: "./portafolio/src/assets/django/Django_tecnologias_usadas.png",
+            image: "https://felipeduarte.neocities.org/imagenes/django/Django_bases_de_datos.png",
             link: "/projects/django-ai-project", // Nueva ruta
             technologies: [<SiDjango/>, <SiMysql/>, <SiHtml5/>, <SiCss3/>,<SiJavascript/>],
         },

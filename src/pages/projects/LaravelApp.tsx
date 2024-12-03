@@ -7,35 +7,35 @@ const LaravelApp: React.FC = () => {
 
     const items = [
         {
-            src: "/portafolio/src/assets/laravel/imagen_login.png",
+            src: "https://felipeduarte.neocities.org/imagenes/laravel/imagen_login.png",
             caption: "Pantalla de inicio de sesión: autenticación de usuarios.",
         },
         {
-            src: "/portafolio/src/assets/laravel/imagen_admin_users.png",
+            src: "https://felipeduarte.neocities.org/imagenes/laravel/imagen_admin_users.png",
             caption: "Panel del Administrador: Administración de usuarios.",
         },
         {
-            src: "/portafolio/src/assets/laravel/imagen_admin_new_user.png",
+            src: "https://felipeduarte.neocities.org/imagenes/laravel/imagen_admin_new_user.png",
             caption: "Panel del Administrador: Creación de nuevos usuarios.",
         },
         {
-            src: "/portafolio/src/assets/laravel/imagen_coordi_list.png",
+            src: "https://felipeduarte.neocities.org/imagenes/laravel/imagen_coordi_list.png",
             caption: "Panel del Coordinador: Listado de pases de salida.",
         },
         {
-            src: "/portafolio/src/assets/laravel/imagen_cordi.png",
+            src: "https://felipeduarte.neocities.org/imagenes/laravel/imagen_cordi.png",
             caption: "Panel del Coordinador: Administración de permisos.",
         },
         {
-            src: "/portafolio/src/assets/laravel/imagen_docente_dashboard.png",
+            src: "https://felipeduarte.neocities.org/imagenes/laravel/imagen_docente_dashboard.png",
             caption: "Panel del Docente: Panel principal.",
         },
         {
-            src: "/portafolio/src/assets/laravel/imagen_docente_solicitud_d.png",
+            src: "https://felipeduarte.neocities.org/imagenes/laravel/imagen_docente_solicitud_d.png",
             caption: "Panel del Docente: Solicitud de documentos.",
         },
         {
-            src: "/portafolio/src/assets/laravel/imagen_docente_solicitud_p.png",
+            src: "https://felipeduarte.neocities.org/imagenes/laravel/imagen_docente_solicitud_p.png",
             caption: "Panel del Docente: Solicitud de pases de salida.",
         },
     ];
@@ -149,10 +149,16 @@ const LaravelApp: React.FC = () => {
             </motion.p>
 
             {/* Carrusel de imágenes */}
-            
-            <div className="my-8">
+            <div className="flex justify-center">
+            <motion.div
+            className="my-8 max-w-96"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.5, duration: 0.8 }}
+            >
                 <Carousel items={items} interval={7000} />
-            </div>
+            </motion.div></div>
+            
 
             {/* Botón */}
             <motion.div

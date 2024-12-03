@@ -6,23 +6,23 @@ import { Link } from "react-router-dom";
 const DjangoAIProject: React.FC = () => {
     const images = [
         { 
-            src: "/portafolio/src/assets/django/Django_tecnologias_usadas.png", 
+            src: "https://felipeduarte.neocities.org/imagenes/django/Django_tecnologias_usadas.png", 
             caption: "Página principal con menú y descripción de tecnologías." 
         },
         { 
-            src: "/portafolio/src/assets/django/Django_filtros_Personalizados.png", 
+            src: "https://felipeduarte.neocities.org/imagenes/django/Django_filtros_Personalizados.png", 
             caption: "Sección 'Web' con filtros personalizados e imágenes." 
         },
         { 
-            src: "/portafolio/src/assets/django/Django_bases_de_datos.png",
+            src: "https://felipeduarte.neocities.org/imagenes/django/Django_bases_de_datos.png",
             caption: "Base de datos con Django."
         },
         { 
-            src: "/portafolio/src/assets/django/Django_admin_de_db.png", 
+            src: "https://felipeduarte.neocities.org/imagenes/django/Django_admin_de_db.png", 
             caption: "Administración de base de datos con Django." 
         },
         {
-            src: "/portafolio/src/assets/django/Django_tablas_de_db.png",
+            src: "https://felipeduarte.neocities.org/imagenes/django/Django_tablas_de_db.png",
             caption: "Tablas de la base de datos con Django."
         }
     ];

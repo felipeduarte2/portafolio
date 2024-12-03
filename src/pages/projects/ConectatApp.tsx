@@ -5,23 +5,23 @@ import Carousel from "../../components/Carrusel";
 const ConectatApp: React.FC = () => {
     const items = [
         {
-        src: "/portafolio/src/assets/conectat/imagen_conectat_inicio_sesion.jpg",
+        src: "https://felipeduarte.neocities.org/imagenes/conectat/Imagen_conectat_inicio_sesion.jpg",
         caption: "Pantalla de inicio de sesión: autenticación de usuarios.",
         },
         {
-        src: "/portafolio/src/assets/conectat/imagen_conectat_identificacion_cliente.jpg",
+        src: "https://felipeduarte.neocities.org/imagenes/conectat/Imagen_conectat_identificacion_cliente.jpg",
         caption: "Identificación del cliente: captura de datos personales.",
         },
         {
-        src: "/portafolio/src/assets/conectat/imagen_conectat_validacion_cliente.jpg",
+        src: "https://felipeduarte.neocities.org/imagenes/conectat/Imagen_conectat_validacion_cliente.jpg",
         caption: "Validación del cliente: verificación de datos y autenticación.",
         },
         {
-        src: "/portafolio/src/assets/conectat/imagen_conetat1.jpg",
+        src: "https://felipeduarte.neocities.org/imagenes/conectat/Imagen_conetat1.jpg",
         caption: "Pantalla principal: gestión de planes de internet.",
         },
         {
-        src: "/portafolio/src/assets/conectat/imagen_conetat2.jpg",
+        src: "https://felipeduarte.neocities.org/imagenes/conectat/Imagen_conetat2.jpg",
         caption: "Pantalla principal: gestión de planes de internet.",
         },
     ];
@@ -54,9 +54,7 @@ const ConectatApp: React.FC = () => {
             {/* Carrusel de imágenes */}
             <div className="flex justify-center">
             <motion.div
-            className="my-8 
-            max-w-60
-            "
+            className="my-8 max-w-60"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.8 }}
