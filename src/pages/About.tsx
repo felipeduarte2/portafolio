@@ -26,7 +26,7 @@ const About: React.FC = () => {
                 transition={{ duration: 0.5, delay: 0.3 }}
             >
                 <img
-                src="/portafolio/src/assets/foto_cv.jpg" // Cambia por la ruta de tu imagen
+                src="src/assets/foto_cv.jpg" // Cambia por la ruta de tu imagen
                 alt="Felipe de Jesús Duarte Castillo"
                 className="rounded-lg shadow-lg w-full"
                 />
