@@ -158,6 +158,22 @@ const LaravelApp: React.FC = () => {
             >
                 <Carousel items={items} interval={7000} />
             </motion.div></div>
+
+            <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.9, duration: 0.8 }}
+            className="text-center my-8"
+            >
+            <a
+                href="https://github.com/felipeduarte2/economic_days_administration"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block  text-blue-600 hover:text-blue-800"
+            >
+                Ver Código en GitHub
+            </a>
+        </motion.div>
             
 
             {/* Botón */}
