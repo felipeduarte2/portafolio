@@ -52,14 +52,13 @@ Este es mi portafolio personal desarrollado con **React**, **TypeScript**, y **T
 
 2. Instala las dependencias:
 
- ```bash
-npm install
- ```
+  ```bash
+  npm install
+  ```
 3. Ejecuta el servidor de desarrollo:
-
- ```bash
-npm start
- ```
+  ```bash
+  npm start
+   ```
 Abre tu navegador en http://localhost:3000 para ver el portafolio en local.
 
 
