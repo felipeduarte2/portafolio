@@ -50,12 +50,12 @@ Este es mi portafolio personal desarrollado con **React**, **TypeScript**, y **T
    cd portafolio
    ```
 
-Instala las dependencias:
+2. Instala las dependencias:
 
  ```bash
 npm install
  ```
-Ejecuta el servidor de desarrollo:
+3. Ejecuta el servidor de desarrollo:
 
  ```bash
 npm start
