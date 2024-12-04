@@ -71,23 +71,12 @@ El portafolio está en línea en:
 🤝 Contribuciones
 Aunque este portafolio es un proyecto personal, estoy abierto a sugerencias. Si tienes alguna idea, no dudes en abrir un Issue o enviarme un mensaje.
 
-📄 Licencia
-Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más información.
 
 📧 Contacto
 Desarrollado por Felipe de Jesús Duarte Castillo
 Correo: fduartecastillo2@gmail.com
 Teléfono: +52 997 151 7051
 Portafolio: [https://felipeduarte2.netlify.app/](https://felipeduarte2.netlify.app/)
-
----
-
-### **¿Qué incluye este README.md?**
-1. **Introducción**: Describe el propósito del portafolio.
-2. **Características principales**: Enumera las secciones clave y las tecnologías usadas.
-3. **Guía de instalación**: Proporciona instrucciones para ejecutar el proyecto localmente.
-4. **Despliegue**: Indica la URL del portafolio en línea.
-5. **Contacto**: Agrega tus datos para que otros puedan comunicarse contigo.
 
 ---
 
