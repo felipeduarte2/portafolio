@@ -19,7 +19,7 @@ Este es mi portafolio personal desarrollado con **React**, **TypeScript**, y **T
   - Implementadas con **Framer Motion** para una experiencia visual atractiva.
 
 - **Despliegue en GitHub Pages**:
-  - Disponible en: [https://felipeduarte2.github.io/portafolio/](https://felipeduarte2.netlify.app/)
+  - Disponible en: [https://felipeduarte2.netlify.app/](https://felipeduarte2.netlify.app/)
 
 ---
 
@@ -59,7 +59,7 @@ Ejecuta el servidor de desarrollo:
 
  ```bash
 npm start
- ```bash
+ ```
 Abre tu navegador en http://localhost:3000 para ver el portafolio en local.
 
 
