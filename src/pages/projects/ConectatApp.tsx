@@ -27,7 +27,7 @@ const ConectatApp: React.FC = () => {
     ];
 
     return (
-        <div className="bg-gray-100 min-h-screen text-gray-800 py-8 px-4">
+        <div className="bg-slate-800 min-h-screen text-white py-8 px-4">
         <div className="max-w-5xl mx-auto">
             {/* Descripción del proyecto */}
             <motion.div
@@ -67,7 +67,7 @@ const ConectatApp: React.FC = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.7, duration: 0.8 }}
-            className="bg-white shadow-lg rounded-lg p-6 my-8"
+            className="bg-white text-gray-800 shadow-lg rounded-lg p-6 my-8"
             >
             <h2 className="text-2xl font-semibold mb-4">Herramientas y Tecnologías</h2>
             <ul className="list-disc list-inside">

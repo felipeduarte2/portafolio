@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import { FaEnvelope, FaPhoneAlt, } from "react-icons/fa";
+import { FaEnvelope, FaWhatsapp,  } from "react-icons/fa";
 
 const Contact: React.FC = () => {
     return (
-        <div className="relative bg-gradient-to-r from-blue-400 via-blue-300 to-purple-400 min-h-screen flex items-center justify-center py-12 px-6 overflow-hidden">
+        <div className="relative bg-slate-800 min-h-screen flex items-center justify-center py-12 px-6 overflow-hidden">
         {/* Decoraciones */}
         <div className="absolute inset-0 overflow-hidden">
             <motion.div
@@ -54,7 +54,6 @@ const Contact: React.FC = () => {
             </motion.p>
 
             {/* Formulario */}
-           
 
             {/* Información adicional */}
             <motion.div
@@ -74,19 +73,21 @@ const Contact: React.FC = () => {
                 </a>
             </p>
             <p className="text-gray-600">
-                <FaPhoneAlt className="inline-block mr-2 text-blue-600" />
-                Llámame al:
+                <FaWhatsapp className="inline-block mr-2 text-blue-600" />
+                Whatsapp: 
                 <a
-                href="tel:+529971517051"
+                href="https://api.whatsapp.com/send?phone=+529971517051"
                 className="text-blue-600 hover:underline ml-1"
                 >
                 +52 997 151 7051
                 </a>
-            </p>
+                </p>
             </motion.div>
         </motion.div>
         </div>
     );
 };
+
+
 
 export default Contact;

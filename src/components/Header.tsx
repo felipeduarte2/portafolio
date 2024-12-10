@@ -7,11 +7,11 @@ const Header: React.FC = () => {
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
     return (
-        <header className="bg-blue-600 text-white shadow-md fixed top-0 left-0 w-full z-50">
+        <header className="bg-slate-800 shadow-md fixed top-0 left-0 w-full z-50">
         <nav className="container mx-auto flex justify-between items-center p-4">
             {/* Logotipo o nombre */}
             <Link to="/" className="text-2xl font-bold hover:text-gray-200">
-            Felipe Duarte
+            <span className="relative bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent font-semibold hover:text-gray-200">Felipe Duarte</span>
             </Link>
 
             {/* Botón del menú hamburguesa */}
@@ -37,17 +37,19 @@ const Header: React.FC = () => {
 
             {/* Enlaces de navegación */}
             <ul
-            className={`md:flex space-x-4 absolute md:static top-16 left-0 w-full md:w-auto bg-blue-600 md:bg-transparent z-40 md:z-auto ${
+            className={`md:flex space-x-4 absolute md:static top-16 left-0 w-full md:w-auto  md:bg-transparent z-40 md:z-auto ${
                 isMenuOpen ? "block" : "hidden"
             }`}
             >
             <li className="border-b md:border-none">
                 <Link
                 to="/"
-                className="block py-2 px-4 hover:text-gray-200"
+                className="block py-2 px-4"
                 onClick={() => setIsMenuOpen(false)}
                 >
+                <span className="relative bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent font-semibold hover:text-gray-200">
                 Inicio
+                </span>
                 </Link>
             </li>
             <li className="border-b md:border-none">
@@ -55,8 +57,9 @@ const Header: React.FC = () => {
                 to="/about"
                 className="block py-2 px-4 hover:text-gray-200"
                 onClick={() => setIsMenuOpen(false)}
-                >
+                ><span className="relative bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent font-semibold hover:text-gray-200">
                 Acerca de mí
+                </span>
                 </Link>
             </li>
             <li className="border-b md:border-none">
@@ -64,8 +67,9 @@ const Header: React.FC = () => {
                 to="/projects"
                 className="block py-2 px-4 hover:text-gray-200"
                 onClick={() => setIsMenuOpen(false)}
-                >
+                ><span className="relative bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent font-semibold hover:text-gray-200">
                 Proyectos
+                </span>
                 </Link>
             </li>
             <li>
@@ -73,8 +77,9 @@ const Header: React.FC = () => {
                 to="/contact"
                 className="block py-2 px-4 hover:text-gray-200"
                 onClick={() => setIsMenuOpen(false)}
-                >
+                ><span className="relative bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent font-semibold hover:text-gray-200">
                 Contacto
+                </span>
                 </Link>
             </li>
             </ul>

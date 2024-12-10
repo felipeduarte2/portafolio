@@ -42,7 +42,7 @@ const LaravelApp: React.FC = () => {
 
 
     return (
-        <div className="bg-gray-100 min-h-screen text-gray-800 py-8 px-4">
+        <div className="bg-slate-800 min-h-screen text-white py-8 px-4">
         <div className="max-w-5xl mx-auto">
             {/* Título */}
             <motion.h1

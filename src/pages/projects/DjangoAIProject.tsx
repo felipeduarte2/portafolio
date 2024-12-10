@@ -28,6 +28,7 @@ const DjangoAIProject: React.FC = () => {
     ];
 
     return (
+        <div className="bg-slate-800 min-h-screen text-white py-8 px-4">
         <motion.div
         className="container mx-auto px-4 py-8"
         initial={{ opacity: 0 }}
@@ -46,7 +47,7 @@ const DjangoAIProject: React.FC = () => {
 
         {/* Descripción del proyecto */}
         <motion.p
-            className="text-lg text-gray-700 mb-6 text-justify"
+            className="text-lg text-white mb-6 text-justify"
             initial={{ x: 100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
@@ -111,6 +112,7 @@ const DjangoAIProject: React.FC = () => {
             </Link>
         </motion.div>
         </motion.div>
+        </div>
     );
 };
 

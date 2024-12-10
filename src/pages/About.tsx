@@ -4,7 +4,28 @@ import { Link } from "react-router-dom";
 
 const About: React.FC = () => {
     return (
-        <section className="bg-gray-100 text-gray-800 py-16 px-4">
+        <section className="bg-slate-800 text-white py-16 px-4">
+            {/* Decoraciones */}
+        <div className="absolute inset-0 overflow-hidden">
+            <motion.div
+            className="absolute top-10 left-10 w-32 h-32 bg-white opacity-20 rounded-full blur-lg"
+            animate={{ scale: [1, 1.5, 1] }}
+            transition={{
+                duration: 6,
+                repeat: Infinity,
+                repeatType: "mirror",
+            }}
+            />
+            <motion.div
+            className="absolute bottom-10 right-20 w-40 h-40 bg-white opacity-30 rounded-full blur-2xl"
+            animate={{ scale: [1, 1.5, 1] }}
+            transition={{
+                duration: 8,
+                repeat: Infinity,
+                repeatType: "mirror",
+            }}
+            />
+        </div>
         <div className="container mx-auto max-w-4xl">
             {/* Título con animación */}
             <motion.h2
@@ -17,10 +38,10 @@ const About: React.FC = () => {
             </motion.h2>
 
             {/* Contenido principal */}
-            <div className="flex flex-col md:flex-row items-center">
+            <div className="flex flex-col  items-center">
             {/* Imagen con animación */}
             <motion.div
-                className="md:w-1/3 mb-6 md:mb-0"
+                className="md:w-1/3 mb-6 md:mb-0 max-w-80"
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5, delay: 0.3 }}

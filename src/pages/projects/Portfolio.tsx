@@ -3,27 +3,9 @@ import { motion } from "framer-motion";
 // import Carousel from "../../components/Carrusel";
 
 const Portfolio: React.FC = () => {
-    // const items = [
-    //     {
-    //     src: "/images/portfolio-home.png",
-    //     caption: "Página de inicio: Bienvenida y objetivo.",
-    //     },
-    //     {
-    //     src: "/images/portfolio-about.png",
-    //     caption: "Sección Acerca de mí: habilidades y experiencia.",
-    //     },
-    //     {
-    //     src: "/images/portfolio-projects.png",
-    //     caption: "Sección Proyectos: listado de trabajos destacados.",
-    //     },
-    //     {
-    //     src: "/images/portfolio-contact.png",
-    //     caption: "Formulario de contacto: redirige correos directamente.",
-    //     },
-    // ];
 
     return (
-        <div className="bg-gray-100 min-h-screen text-gray-800 py-8 px-4">
+        <div className="bg-slate-800 min-h-screen text-white py-8 px-4">
         <div className="max-w-5xl mx-auto">
             {/* Descripción del proyecto */}
             <motion.div
@@ -68,7 +50,7 @@ const Portfolio: React.FC = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.7, duration: 0.8 }}
-            className="bg-white shadow-lg rounded-lg p-6 my-8"
+            className="bg-white text-slate-800 shadow-lg rounded-lg p-6 my-8"
             >
             <h2 className="text-2xl font-semibold mb-4">Características Principales</h2>
             <ul className="list-disc list-inside">
@@ -116,7 +98,7 @@ const Portfolio: React.FC = () => {
             >
             <Link
                 to="/projects"
-                className="inline-block bg-gray-800 text-white px-6 py-2 rounded hover:bg-gray-700"
+                className="inline-block bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-800"
             >
                 Volver a Proyectos
             </Link>

@@ -46,7 +46,7 @@ const Projects: React.FC = () => {
     ];
 
     return (
-        <section className="bg-gray-100 text-gray-800 py-16 px-4">
+        <section className="bg-slate-800 text-white py-16 px-4">
         <div className="container mx-auto max-w-6xl">
             <motion.h2
             className="text-3xl font-bold text-center mb-12"
