@@ -45,10 +45,10 @@ Este es mi portafolio personal desarrollado con **React**, **TypeScript**, y **T
 ### Pasos para instalar y ejecutar el proyecto
 
 1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/portafolio.git
+  ```bash
+   git clone https://github.com/felipeduarte2/portafolio.git
    cd portafolio
-   ```
+  ```
 
 2. Instala las dependencias:
 
